@@ -11,8 +11,8 @@ def Index():
 @app.route("/Summarize", methods=["GET", "POST"])
 def Summarize():
     if req.method=="POST":
-        API_URL = "Use your Hugging Face API Key"
-        headers = {"Authorization": f"Bearer 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"}
+        API_URL = "Use your Hugging Face URL"
+        headers = {"Authorization": f"Bearer your HFkey"}
         data=req.form["data"]
         minL=20
         maxL=int(req.form["MaxL"])
