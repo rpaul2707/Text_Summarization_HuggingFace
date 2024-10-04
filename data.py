@@ -1,7 +1,7 @@
 import requests
 
 API_URL = "https://api-inference.huggingface.co/models/facebook/bart-large-cnn"
-headers = {"Authorization": f"Bearer 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"}
+headers = {"Authorization": f"Huggingfacekey"}
 minL=int(input())
 maxL=int(input())
 data='''The tower is 324 metres (1,063 ft) tall, about the same height as an 81-storey building, 
